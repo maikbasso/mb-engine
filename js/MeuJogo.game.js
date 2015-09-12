@@ -20,7 +20,7 @@ function Principal(jogo){
     
     //definição dos elementos da interface
     var imagem = new ElementosGraficos().imagem;
-    imagem.setImagem(jogo.imagens["icone"]);
+    imagem.setImagem(jogo.imagens["logoMBEngine"]); //referencia da imagem declarada em MeuJogo.file.js
     
     //esse é o construtor da interface na engine
     this.renderizar = function (){

@@ -28,7 +28,7 @@ function Arquivos(){
     //imagens
     this.imagens = new Array();
   	//exemplo
-	this.imagens["icone"] = "arquivos/imagens/icone.png";
+	this.imagens["logoMBEngine"] = "arquivos/imagens/MBEngine-logo.png";
 	
     //Sons
     this.sons = new Array();
