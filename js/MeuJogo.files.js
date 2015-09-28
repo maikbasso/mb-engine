@@ -22,17 +22,15 @@
  * data:image/png;base64,...
  * ===========================================================================*/
 function Arquivos(){
-    
-	 // os indice serão usados para recuperar os arquivos no decorrer da construção do jogo 
-	
-    //imagens
-    this.imagens = new Array();
-  	//exemplo
+	// os indice serão usados para recuperar os arquivos no decorrer da construção do jogo 
+
+	//imagens
+	this.imagens = new Array();
 	this.imagens["logoMBEngine"] = "arquivos/imagens/MBEngine-logo.png";
-	
-    //Sons
-    this.sons = new Array();
+
+	//Sons
+	this.sons = new Array();
 	//Exemplo de audio
-    //this.sons["trilhaSonora"] = "arquivos/sons/trilhaSonora.ogg";
+	//this.sons["trilhaSonora"] = "arquivos/sons/trilhaSonora.ogg";
     
 }
